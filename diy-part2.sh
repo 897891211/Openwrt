@@ -41,7 +41,6 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-unblocknetease
 
 
 # 删除重复包
-
 # rm -rf feeds/luci/applications/luci-app-netdata
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf package/small-package/luci-app-openvpn-server
@@ -63,6 +62,7 @@ rm -rf feeds/packages/multimedia/aliyundrive-webdav
 rm -rf package/feeds/packages/perl-xml-parser
 rm -rf package/feeds/packages/lrzsz
 rm -rf package/feeds/packages/xfsprogs
+
 # 其他调整
 NAME=$"package/luci-app-unblockneteasemusic/root/usr/share/unblockneteasemusic" && mkdir -p $NAME/core
 curl 'https://api.github.com/repos/UnblockNeteaseMusic/server/commits?sha=enhanced&path=precompiled' -o commits.json
