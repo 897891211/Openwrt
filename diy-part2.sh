@@ -20,3 +20,7 @@ sed -i 's/OpenWrt/DianerWRT/g' package/base-files/files/bin/config_generate
 
 # 修改默认主题（FROM uci-theme-bootstrap CHANGE TO luci-theme-material）
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+
+# golang版本修复
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang  feeds/packages/lang/golang
