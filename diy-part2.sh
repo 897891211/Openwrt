@@ -23,4 +23,4 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci
 
 # golang版本修复
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang  feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
