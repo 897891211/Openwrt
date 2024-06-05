@@ -153,7 +153,7 @@ rm -rf feeds/kenzo/{luci-theme-tomato,luci-theme-opentopd,luci-theme-ifit,luci-t
 rm -rf feeds/kenzo/{luci-app-store,luci-app-smartdns,luci-app-partexp,luci-app-lucky,luci-app-koolproxyR,luci-app-istorex,luci-app-ikoolproxy,luci-app-homeproxy}
 rm -rf feeds/kenzo/{luci-app-gost,luci-app-eqos,luci-app-easymesh,luci-app-design-config,luci-app-clash,luci-app-argon-config}
 
-rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray*,v2ray*,sing*,smartdns}
+rm -rf feeds/packages/net/{adblock,adblock-fast,addrwatch,adguardhome,aggregate,aircrack-ng,amule,announce,apinger,aria2,ariang,arp-scan,atftp,atlas-probe,atlas-sw-probe,autossh,baidupcs-go,baidupcs-web,banip,basicstation,bcp38,beanstalkd,bfdd,bind,bitlbee,bmon,boinc,boinc-wrapper,bonding,bridge-utils,bwm-ng,bwping,daemonlogger,dante,darkstat,davfs2,dawn,dcstad,dcwapd,ddns-scripts,dhcpcd,esniper,external-protocol,fail2ban,fakeidentd,fakepop,family-dnsm,fastd,foolsm,fping,freeradius3,wavemon,webui-aria2,wifidog,wifi-presence,wifischedule,yggdrasil,zerotier,boinc,boinc-wrapper,bonding,bridge-utils,bwm-ng,bwping,daemonlogger,dante,darkstat,davfs2,dawn,dcstad,dcwapd,ddns-scripts,,dhcpcd,esniper,external-protocol,fail2ban,fakeidentd,fakepop,family-dns,fastd,foolsm,fping,freeradius3,wavemon,webui-aria2,wifidog,wifi-presence,wifischedule,yggdrasil,zerotier}
 rm -rf feeds/packages/utils/v2dat
 rm -rf feeds/packages/lang/golang
 
